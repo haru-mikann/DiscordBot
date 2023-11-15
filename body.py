@@ -15,7 +15,7 @@ def download_url(path,URL):
     return f"{path}"+"%(title)s.%(ext)s"
 
 
-TOKEN = "MTE3NDIwNjIxODE3NzM2Mzk4OA.G6K7Mm.b0mia5BRuhGSerB1mSpXP-JeIMJTvYQmsmQcl0"
+TOKEN = ""
 
 intents = discord.Intents.default()
 intents.message_content = True
